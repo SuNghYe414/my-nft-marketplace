@@ -12,7 +12,7 @@ import {
   marketplaceAddress,
   nftABI,
   nftAddress,
-} from '@/app/contracts'
+} from '@/src/app/contracts'
 
 type ListNftFormProps = {
   tokenId: bigint

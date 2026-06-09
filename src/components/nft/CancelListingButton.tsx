@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi'
-import { marketplaceABI, marketplaceAddress } from '@/app/contracts'
+import { marketplaceABI, marketplaceAddress } from '@/src/app/contracts'
 
 type CancelListingButtonProps = {
   tokenId: bigint

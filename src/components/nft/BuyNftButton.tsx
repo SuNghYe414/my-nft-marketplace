@@ -11,7 +11,7 @@ import {
   marketplaceAddress,
   tokenABI,
   tokenAddress,
-} from '@/app/contracts'
+} from '@/src/app/contracts'
 
 type BuyNftButtonProps = {
   tokenId: bigint
